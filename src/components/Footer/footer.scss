@@ -1,0 +1,9 @@
+@import "../../common/colors.scss";
+
+.footer {
+  display: grid;
+  place-items: center;
+  background-color: $secondary-color;
+  color: $font-primary;
+  height: 72px;
+}

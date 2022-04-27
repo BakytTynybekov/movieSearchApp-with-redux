@@ -1,0 +1,25 @@
+@import "../../common/colors.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $secondary-color;
+  padding: 40px 60px;
+}
+
+.logo {
+  color: $font-primary;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-image {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  font-size: 38px;
+  background-color: #fff;
+  border-radius: 50%;
+}
