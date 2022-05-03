@@ -23,3 +23,30 @@
   background-color: #fff;
   border-radius: 50%;
 }
+
+.search-bar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+
+    button {
+      padding: 0 12px;
+      cursor: pointer;
+      height: 38px;
+      font-size: 20px;
+    }
+
+    input {
+      font-size: 18px;
+      width: 100%;
+      padding: 5px 5px 5px 10px;
+      height: 38px;
+      outline: none;
+    }
+  }
+}

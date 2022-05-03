@@ -57,3 +57,17 @@
 .fa-calendar {
   color: peachpuff;
 }
+
+@media screen and (max-width: 1200px) {
+  .movie-section__inner {
+    flex-direction: column;
+  }
+  .section-right {
+    order: -1;
+  }
+
+  .section-left {
+    margin-top: 40px;
+    padding: 10px;
+  }
+}
